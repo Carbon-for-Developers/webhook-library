@@ -32,11 +32,6 @@ class WebhookVerifier:
             parts = dict(x.strip().split('=') for x in header.split(','))
             timestamp = parts.get('t').strip()
             received_signature = parts.get('v1').strip()
-            print()
-            print(f"timestamp:{timestamp}")
-            print()
-            print(f"Carbon-Signature:{received_signature}")
-            print()
             return timestamp, received_signature
         except Exception as e:
             raise ValueError("Invalid Carbon-Signature header format") from e
