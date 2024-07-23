@@ -1,0 +1,10 @@
+# Java build artifacts
+target/
+*.class
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# Node modules (if any)
+node_modules/
