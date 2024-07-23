@@ -1,15 +1,24 @@
 {
-    "name": "carbon-webhooks-javascript",
-    "version": "1.0.0",
-    "description": "A library to verify Carbon webhook events in JavaScript.",
-    "main": "carbon_webhooks_javascript/verifier.js",
-    "scripts": {
-      "test": "node carbon_webhooks_javascript/example.js"
-    },
-    "author": "carbon",
-    "license": "MIT",
-    "dependencies": {
-      "crypto": "^1.0.1"
-    }
-  }
-  
+  "name": "carbon-webhooks-javascript",
+  "version": "1.0.0",
+  "description": "A library to verify Carbon webhook events in JavaScript.",
+  "main": "carbon_webhooks_javascript/verifier.js",
+  "scripts": {
+    "test": "node carbon_webhooks_javascript/example.js"
+  },
+  "author": "carbon",
+  "license": "MIT",
+  "dependencies": {
+    "crypto": "^1.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Carbon-for-Developers/webhook-library/tree/main/carbon_webhooks_javascript"
+  },
+  "keywords": [
+    "carbon",
+    "webhooks",
+    "javascript",
+    "verification"
+  ]
+}

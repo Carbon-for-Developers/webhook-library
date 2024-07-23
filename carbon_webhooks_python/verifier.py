@@ -8,7 +8,6 @@ class WebhookVerifier:
     
     def generate_signature(self, timestamp: str, json_payload: str) -> str:
         msg = f"{timestamp}.{json_payload}".encode("utf-8")
-        print(msg)
         return hmac.new(
             key=bytes.fromhex(self.signing_key), 
             msg=msg, 
