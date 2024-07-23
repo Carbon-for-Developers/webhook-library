@@ -1,5 +1,5 @@
 import json
-from carbon_webhooks_python import WebhookVerifier
+from verifier import WebhookVerifier
 
 # Initialize the verifier with your signing key
 SIGNING_SECRET = 'aa76aee859f223451fd9bfb37ce893a0'  # Replace with your actual signing key
