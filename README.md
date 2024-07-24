@@ -17,9 +17,7 @@ __
 The Python library is located in the `carbon_webhooks_python` directory.
 
 ## JavaScript
-__
 The JavaScript library is located in the `carbon_webhooks_javascript` directory.
 
-### Java
-__
+## Java
 The Java library is located in the `java` directory.
