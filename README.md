@@ -13,13 +13,13 @@ Webhook verification is essential to ensure the authenticity and integrity of th
 - [Java](#java)
 
 ## Python
-
+__
 The Python library is located in the `carbon_webhooks_python` directory.
 
 ## JavaScript
-
+__
 The JavaScript library is located in the `carbon_webhooks_javascript` directory.
 
 ### Java
-
+__
 The Java library is located in the `java` directory.
