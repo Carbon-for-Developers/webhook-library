@@ -1,10 +1,120 @@
-# Java build artifacts
-target/
-*.class
-
-# Python cache files
+# Byte-compiled / optimized / DLL files
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
 
-# Node modules (if any)
-node_modules/
+# Distribution / packaging
+carbon_webhooks_python/build/
+carbon_webhooks_python/dist/
+carbon_webhooks_python/eggs/
+carbon_webhooks_python/*.egg-info/
+carbon_webhooks_python/.eggs/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+carbon_webhooks_python/.pytest_cache/
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Environments configuration
+*.env
+
+# Jupyter Notebook
+carbon_webhooks_python/.ipynb_checkpoints
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# PEP 582; used by e.g. github.com/David-OConnor/pyflow
+__pypackages__/
+
+# Profiling data
+.prof
+
+# Sphinx documentation
+docs/_build/
+
+# Byte-compiled / optimized / DLL files
+*.pyc
+*.pyo
+*.pyd
+
+# Java build artifacts
+java/target/
+java/.classpath
+java/.project
+java/.settings/
+
+# Package files
+carbon_webhooks_python/get-pip.py
+
+# Node modules
+carbon_webhooks_javascript/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Logs
+*.log
+*.log.*
+
+# Misc
+*.swp
+*.swo
+*.bak
+*.old
+*.orig
+*.rej
+*~
+.DS_Store
+*.stackdump
+*.pid
+*.seed
+*.gem
+*.gz
+*.bz2
+*.lzma
+*.log
+*.out
+*.blg
+*.bbl
+*.bak
+*.old
+*.backup
