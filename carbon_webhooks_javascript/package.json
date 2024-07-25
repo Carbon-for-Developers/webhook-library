@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Carbon-for-Developers/webhook-library/tree/main/carbon_webhooks_javascript"
+    "url": "git+https://github.com/Carbon-for-Developers/webhook-library.git#main"
   },
   "keywords": [
     "carbon",
