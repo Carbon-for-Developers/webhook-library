@@ -8,9 +8,9 @@ Webhook verification is essential to ensure the authenticity and integrity of th
 
 ## Supported Languages
 
-- [Python](#python)
-- [JavaScript](#javascript)
-- [Java](#java)
+- [Python](https://github.com/Carbon-for-Developers/webhook-library/tree/main/carbon_webhooks_python)
+- [JavaScript](https://github.com/Carbon-for-Developers/webhook-library/tree/main/carbon_webhooks_javascript)
+- [Java](https://github.com/Carbon-for-Developers/webhook-library/tree/main/java)
 
 ## Python
 
